@@ -1,7 +1,8 @@
 name: First WorkFlow
 
 
-on: [push, issues, pull_request, pull_request_review]
+on:
+  workflow_diapatch
 
 
 jobs: 
