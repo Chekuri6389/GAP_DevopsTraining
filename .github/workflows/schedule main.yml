@@ -2,8 +2,8 @@ name: Schedule WorkFlow
 
 
 on: 
-  schedule:
-   - cron: '* * * * *'
+#  schedule:
+#   - cron: '* * * * *'
 
 jobs: 
   build:
