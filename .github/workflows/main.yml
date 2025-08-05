@@ -2,7 +2,8 @@ name: First WorkFlow
 
 
 on:
-  workflow_diapatch
+  pull_request:
+    types: [opened, synchronize]
 
 
 jobs: 
