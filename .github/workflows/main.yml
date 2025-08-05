@@ -1,11 +1,7 @@
 name: First WorkFlow
 
 
-on:
-  push:
-   branches:
-     - main
-     - 'uat'
+on: issues
 
 jobs: 
   build:
