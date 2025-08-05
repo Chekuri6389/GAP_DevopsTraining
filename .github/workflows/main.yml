@@ -1,7 +1,7 @@
-name: Issues WorkFlow
+name: First WorkFlow
 
 
-on: issues
+on: pull_request
 
 jobs: 
   build:
